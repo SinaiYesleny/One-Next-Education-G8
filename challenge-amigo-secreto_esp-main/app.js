@@ -18,7 +18,7 @@ function agregarAmigo(){
     document.getElementById("amigo").value = ""; //limpio el input
     actualizarListaAmigos();
 }
-document.querySelector("button-add").addEventListener("click", agregarAmigo)
+document.querySelector(".button-add").addEventListener("click", agregarAmigo)
 
 //Implementa una función para actualizar la lista de amigos
 function actualizarListaAmigos() {
@@ -33,7 +33,7 @@ function actualizarListaAmigos() {
     console.log(listaAmigos);
 
 }
-document.querySelector("button-add").addEventListener("click", actualizarListaAmigos)
+document.querySelector(".button-add").addEventListener("click", actualizarListaAmigos)
 
 //Implementa una función para sortear los amigos
 function sortearAmigo() {
@@ -50,4 +50,4 @@ function sortearAmigo() {
     }
 }
 
-document.querySelector("button-draw").addEventListener("click", sortearAmigo)
+document.querySelector(".button-draw").addEventListener("click", sortearAmigo)
